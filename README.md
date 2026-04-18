@@ -1,6 +1,6 @@
-# Junaid Asghar Portfolio (`jasgh14.github.io`)
+# Junaid Asghar Portfolio (`junasgh.github.io`)
 
-A static, GitHub Pages-friendly portfolio built with semantic HTML, modular CSS, and vanilla JavaScript modules.
+A static, GitHub portfolio built with semantic HTML, modular CSS, and vanilla JavaScript modules.
 
 ## Portfolio overview
 
