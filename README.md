@@ -2,20 +2,6 @@
 
 A static, GitHub portfolio built with semantic HTML, modular CSS, and vanilla JavaScript modules.
 
-## Portfolio overview
-
-This site is organized as a maintainable multi-page portfolio:
-- **Home** (`index.html`): brand statement, featured spotlight, focus areas, stack, and CTA.
-- **CV** (`cv.html`): structured digital CV sections rendered from data.
-- **Projects** (`projects.html`): featured case-study carousel and deep-dive sections.
-- **Contact** (`contact.html`): outreach options, availability, and collaboration topics.
-- **404** (`404.html`): fallback page for unknown routes.
-
-Core project names in content:
-1. Real-Time Visual Diagnosis System
-2. E-commerce Analytics Platform
-3. PlantOps: Automated Plant Disease Monitoring & Analysis System
-
 ## Page map
 
 - `/index.html`
@@ -23,20 +9,6 @@ Core project names in content:
 - `/projects.html`
 - `/contact.html`
 - `/404.html`
-
-## Local preview instructions
-
-Run from repo root:
-
-```bash
-python3 -m http.server 8080
-```
-
-Open:
-- `http://localhost:8080/index.html`
-- `http://localhost:8080/cv.html`
-- `http://localhost:8080/projects.html`
-- `http://localhost:8080/contact.html`
 
 ## File structure
 
@@ -77,20 +49,6 @@ Open:
 │   └── JunaidAsgharCV.pdf
 └── README.md
 ```
-
-## How to edit navigation and social links
-
-Primary source: `assets/data/site-content.js`
-
-- **Header nav links**: `siteContent.nav`
-- **Footer quick links**: `siteContent.quickLinks`
-- **Footer/social links**: `siteContent.socialLinks`
-- **Core identity text**: `siteContent.site`
-
-Preserved canonical links:
-- LinkedIn: `https://www.linkedin.com/in/junaid-asghar453/`
-- GitHub: `https://github.com/jasgh14`
-- Email: `Junaid453@outlook.com`
 
 ## How to edit CV content
 
