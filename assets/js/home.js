@@ -46,7 +46,7 @@ export function renderHomePage() {
       .filter(Boolean);
 
     spotlightMount.innerHTML = `
-      <p class="featured-preview__lede">A compact project deck built around systems thinking and practical delivery.</p>
+      <p class="featured-preview__lede">Key analytics and machine learning projects.</p>
       <ul class="featured-preview__list">
         ${spotlightProjects
           .map(
