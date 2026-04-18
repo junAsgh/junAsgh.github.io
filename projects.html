@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Junaid Asghar | Project Focus Deck</title>
+  <meta name="description" content="Explore three focused projects in a cinematic deck: Real-Time Visual Diagnosis System, E-commerce Analytics Platform, and PlantOps: Automated Plant Disease Monitoring & Analysis System." />
+  <meta property="og:title" content="Junaid Asghar | Project Focus Deck" />
+  <meta property="og:description" content="Explore three focused projects in a cinematic deck: Real-Time Visual Diagnosis System, E-commerce Analytics Platform, and PlantOps: Automated Plant Disease Monitoring & Analysis System." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://jasgh14.github.io/projects.html" />
+  <meta property="og:site_name" content="Junaid Asghar Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Junaid Asghar | Project Focus Deck" />
+  <meta name="twitter:description" content="Explore three focused projects in a cinematic deck: Real-Time Visual Diagnosis System, E-commerce Analytics Platform, and PlantOps: Automated Plant Disease Monitoring & Analysis System." />
+  <link rel="canonical" href="https://jasgh14.github.io/projects.html" />
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/utilities.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/pages/projects.css" />
+</head>
+<body class="page-projects">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main-content" class="site-main container">
+    <section class="page-section projects-hero stack" data-reveal>
+      <p class="eyebrow">Projects</p>
+      <h1>Project Focus Deck</h1>
+      <p class="muted">One project at a time. A compact showcase of ML, analytics, and AI system work.</p>
+      <p class="projects-hero__hint" id="projects-hint">Keyboard: use left and right arrows to switch project, Home for first, End for last</p>
+    </section>
+
+    <section
+      class="page-section projects-deck"
+      data-project-deck
+      data-mood="diagnosis"
+      role="region"
+      aria-roledescription="carousel"
+      aria-label="Project Focus Deck"
+      aria-describedby="projects-hint"
+      data-reveal
+    >
+      <h2 class="sr-only">Featured projects</h2>
+
+      <div class="projects-deck__visual" data-deck-visual tabindex="0" aria-label="Project visual area. Use arrow keys, Home, and End for navigation.">
+        <div class="projects-deck__texture" aria-hidden="true"></div>
+
+        <article class="project-focus-card" data-project-panel>
+          <p class="project-focus-card__eyebrow" data-project-eyebrow>Loading project</p>
+          <h3 class="project-focus-card__title" data-project-name>Loading project</h3>
+          <p class="project-focus-card__summary" data-project-summary>Loading summary</p>
+
+          <dl class="project-focus-card__core">
+            <div>
+              <dt>Problem</dt>
+              <dd data-project-problem>Loading</dd>
+            </div>
+            <div>
+              <dt>Approach</dt>
+              <dd data-project-approach>Loading</dd>
+            </div>
+            <div>
+              <dt>Learning</dt>
+              <dd data-project-learning>Loading</dd>
+            </div>
+          </dl>
+
+          <section class="project-focus-card__pipeline" aria-label="Project pipeline">
+            <h4>Pipeline</h4>
+            <ol data-project-pipeline>
+              <li>Loading pipeline</li>
+            </ol>
+          </section>
+
+          <section class="project-focus-card__stack" aria-label="Project stack">
+            <h4>Stack</h4>
+            <ul data-project-stack>
+              <li>Loading stack</li>
+            </ul>
+          </section>
+
+          <div class="project-focus-card__cta" data-project-cta></div>
+        </article>
+      </div>
+
+      <div class="projects-deck__rail">
+        <p class="projects-deck__count" data-progress-count>1 / 3</p>
+        <div class="projects-deck__track" aria-hidden="true">
+          <span class="projects-deck__bar" data-progress-bar></span>
+        </div>
+        <div class="projects-deck__dots" data-project-nav aria-label="Project selector"></div>
+      </div>
+
+      <div class="projects-deck__controls">
+        <button class="button button--ghost" type="button" data-prev aria-label="Show previous project">← Previous</button>
+        <button class="button" type="button" data-next aria-label="Show next project">Next →</button>
+      </div>
+
+      <details class="projects-deck__details" data-project-details>
+        <summary>More detail</summary>
+        <div class="projects-deck__details-grid">
+          <section>
+            <h4>System direction</h4>
+            <p data-project-system-direction>Loading detail</p>
+          </section>
+          <section>
+            <h4>Delivery flow</h4>
+            <p data-project-delivery-flow>Loading detail</p>
+          </section>
+        </div>
+      </details>
+
+      <p class="sr-only" aria-live="polite" data-project-live></p>
+    </section>
+
+    <nav class="page-section project-quick-jump" data-reveal aria-label="Project quick links">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module">
+    import { renderProjectsPage } from "./assets/js/projects-page.js";
+    renderProjectsPage();
+  </script>
+</body>
+</html>

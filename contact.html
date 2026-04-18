@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Junaid Asghar | Contact</title>
+  <meta name="description" content="Direct contact links for Junaid Asghar, including email, GitHub, LinkedIn, and CV download." />
+  <meta property="og:title" content="Junaid Asghar | Contact" />
+  <meta property="og:description" content="Direct contact links for Junaid Asghar, including email, GitHub, LinkedIn, and CV download." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jasgh14.github.io/contact.html" />
+  <meta property="og:site_name" content="Junaid Asghar Portfolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Junaid Asghar | Contact" />
+  <meta name="twitter:description" content="Direct contact links for Junaid Asghar, including email, GitHub, LinkedIn, and CV download." />
+  <link rel="canonical" href="https://jasgh14.github.io/contact.html" />
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/utilities.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/pages/contact.css" />
+</head>
+<body class="page-contact">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main-content" class="site-main container">
+    <section class="page-section contact-hero stack" data-reveal>
+      <p class="eyebrow">Contact</p>
+      <h1>Let us connect</h1>
+      <p class="muted" data-contact-intro></p>
+    </section>
+
+    <section class="page-section contact-panel stack" data-reveal>
+      <h2 class="sr-only">Contact links</h2>
+      <div class="contact-cards" data-contact-cards></div>
+    </section>
+  </main>
+
+  <div class="copy-toast" role="status" aria-live="polite" data-copy-toast hidden></div>
+
+  <footer class="site-footer" data-site-footer></footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module">
+    import { renderContactPage } from "./assets/js/contact.js";
+    renderContactPage();
+  </script>
+</body>
+</html>
